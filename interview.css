@@ -1,0 +1,74 @@
+.interviewForm{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 3rem !important;
+    padding: 4rem !important;
+    padding-top: 2rem !important;
+}
+.selectInput{
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.selectLabel{
+    color: black !important;
+    font-family: "Quicksand" !important;
+    font-weight: 500 !important;
+}
+.picker{
+    margin-bottom: 1rem !important;
+    width: 100% !important;
+}
+.pdfLabel{
+    font-family: "Quicksand",sans-serif;
+    font-size: 2rem;
+    border: 2px dashed grey;
+    width: 100%;
+    text-align: center;
+    padding:1rem 0;
+    margin-bottom: 1rem;
+    margin-left: 0 !important;
+}
+.pdfLabel:hover{
+    cursor: pointer;
+}
+input[type="file"]{
+    display: none;
+}
+.formHeading{
+    font-size: 2rem;
+    font-family: "Quicksand",sans-serif;
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.725);
+}
+.interviewForm>.meetingJoiners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interviewForm>.meetingJoiners>div>input{
+    min-width: 400px;
+    border-width: 1px;
+    border-color:rgba(0, 0, 0, 0.268) ;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.interviewForm>.meetingJoiners>.addButton{
+    margin-left: 2rem;
+    margin-top: 0;
+}
+.loader {
+    margin: auto;
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
